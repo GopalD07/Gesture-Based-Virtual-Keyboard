@@ -1,0 +1,35 @@
+# Core Computer Vision and Image Processing
+opencv-python==4.8.1.78
+mediapipe==0.10.7
+
+# Data Processing and Analytics
+numpy==1.24.3
+pandas==2.0.3
+
+# Database Integration
+pymongo==4.6.0
+
+# AI/ML and Natural Language Processing
+transformers==4.35.2
+torch==2.1.1
+tokenizers==0.15.0
+
+# Additional dependencies for transformers
+huggingface-hub==0.19.4
+safetensors==0.4.1
+regex==2023.10.3
+requests==2.31.0
+tqdm==4.66.1
+
+# File I/O and System Operations
+filelock==3.13.1
+fsspec==2023.10.0
+
+# Optional but recommended for better performance
+# Uncomment the following if you have CUDA-capable GPU
+# torch==2.1.1+cu118 -f https://download.pytorch.org/whl/torch_stable.html
+
+# For development and debugging (optional)
+# matplotlib==3.7.2
+# jupyter==1.0.0
+# ipykernel==6.25.2
